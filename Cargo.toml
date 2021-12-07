@@ -1,0 +1,21 @@
+[package]
+name = "s3provisioner"
+version = "0.1.2"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+log = "0.4"
+env_logger = "0.9"
+
+openssl-probe = "0.1"
+
+paw = "1.0"
+structopt = { version = "0.3", features = ["paw"] }
+regex = "1.5"
+anyhow = "1.0"
+
+tokio = { version = "1.0", features = ["time", "io-util", "fs"] }
+rusoto_core = "0.47"
+rusoto_s3 = "0.47"

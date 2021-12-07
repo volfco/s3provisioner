@@ -1,0 +1,4 @@
+
+    s3provisioner [OPTIONS] PAIR PAIR PAIR
+
+    Where PAIR is s3://bucket-name/file.ext:/etc/path/file.ext
